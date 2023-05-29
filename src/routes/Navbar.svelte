@@ -1,5 +1,25 @@
 <script>
   import {page} from '$app/stores';
+
+    const navs = [
+        {
+            title:"Home",
+            href:"/"
+        },
+        {
+            title:"About",
+            href:"/about"
+        },
+        {
+            title:"Projects",
+            href:"/projects"
+        },
+        {
+            title:"Contact",
+            href:"/contact"
+        }
+    ]
+
   $: routeId = $page.route.id;
 </script>
 
@@ -7,18 +27,11 @@
     <div class="container">
         <h3>Suprada Tripathy</h3>
         <ul>
-           <li><a href="/" class:active={
-            routeId === '/'
-           }>Home</a></li>
-           <li><a href="/about" class:active={
-            routeId === '/about'
-           }>About</a></li>
-           <li><a href="/projects" class:active={
-            routeId === '/projects'
-           }>Projects</a></li>
-           <li><a href="/contact" class:active={
-            routeId === '/contact'
-           }>Contact</a></li>
+            {#each navs as {title, href}}
+           <li><a {href} class:active={
+            routeId === href
+           }>{title}</a></li>
+           {/each}
         </ul>
     </div>
     </nav>
@@ -33,6 +46,7 @@
     
       .container{
         display:flex;
+        align-items: center;
      }
        ul{
            display:flex;

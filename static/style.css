@@ -1,0 +1,12 @@
+:root{
+	--primary :rgb(138, 148, 148);
+}
+
+body{
+	margin: 0;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
