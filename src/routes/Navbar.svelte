@@ -39,8 +39,7 @@
     
        <style> 
     nav{
-        background-color: rgb(32, 32, 30);
-        color: white;
+        color: black;
         padding: 0.5em;
     }
     
@@ -65,11 +64,11 @@
     
     a{
         text-decoration: none;
-        color: rgb(190, 189, 189);
+        color: rgb(112, 101, 101);
     }
 
     .active{
-        color:white;
+        color:black;
     }
        </style>
     

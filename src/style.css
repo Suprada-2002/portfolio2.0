@@ -1,9 +1,11 @@
 :root{
 	--primary :rgb(138, 148, 148);
+	--blue: #020035;
 }
 
 body{
 	margin: 0;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .container {
