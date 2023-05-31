@@ -1,5 +1,6 @@
 <script>
   import {page} from '$app/stores';
+  import Icon from '@iconify/svelte';
 
     const navs = [
         {
@@ -25,7 +26,7 @@
 
 <nav>
     <div class="container">
-        <h3>Suprada Tripathy</h3>
+        <Icon icon="streamline-emojis:blossom" width="30"  />
         <ul>
             {#each navs as {title, href}}
            <li><a {href} class:active={
@@ -39,7 +40,7 @@
     
        <style> 
     nav{
-        color: black;
+        color: var(--pink);
         padding: 0.5em;
     }
     
@@ -68,7 +69,7 @@
     }
 
     .active{
-        color:black;
+        color:var(--pink);
     }
        </style>
     

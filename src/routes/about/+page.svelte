@@ -1,3 +1,5 @@
-<div class="container">
-    about page
+<div class="about">
+    <div class="container">
+        <h2>about</h2>
+    </div>
 </div>

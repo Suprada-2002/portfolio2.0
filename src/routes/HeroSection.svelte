@@ -12,9 +12,10 @@
     }
     .container{
         padding: 3rem 0px;
+        color: var(--dark-text);
     }
     p{
         margin:0;
-        color: var(--blue)
+        color: var(--pink);
     }
 </style>
