@@ -26,7 +26,7 @@
 
 <nav>
     <div class="container">
-        <Icon icon="streamline-emojis:blossom" width="30"  />
+        <Icon icon="svg-spinners:blocks-shuffle-3" width="40"  />
         <ul>
             {#each navs as {title, href}}
            <li><a {href} class:active={
