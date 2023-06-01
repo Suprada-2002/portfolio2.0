@@ -42,11 +42,20 @@
         grid-template-columns: 1fr;
     }
 
-    .left{
+    .left > *{
         float:left;
     }
-    .right{
+    .right > *{
         float:right;
+    }
+
+    .one {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        max-width: 100px;
     }
 
     @media screen and (max-width: 800px){

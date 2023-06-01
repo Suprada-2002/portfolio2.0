@@ -10,6 +10,7 @@
         <Icon icon="skill-icons:python-dark" width="30px" />
         <Icon icon="skill-icons:c" width="30px" />
         <Icon icon="skill-icons:java-dark" width="30px" />
+        <Icon icon="skill-icons:nodejs-dark" width="30px" />
         </div>
      </div>
 
@@ -20,6 +21,8 @@
             <Icon icon="skill-icons:react-dark" width="30px" />
             <Icon icon="skill-icons:nextjs-dark" width="30px" />
             <Icon icon="skill-icons:vuejs-dark" width="30px" />
+            <Icon icon="skill-icons:tailwindcss-dark" width="30px" />
+            <Icon icon="skill-icons:styledcomponents" width="30px" />
         </div>
      </div>
 
@@ -36,11 +39,8 @@
      <div class="skill-section tech">
         <h4>Tech</h4>
         <div class="skill-icon">
-            <Icon icon="skill-icons:tailwindcss-dark" width="30px" />
-            <Icon icon="skill-icons:styledcomponents" width="30px" />
             <Icon icon="skill-icons:postman" width="30px" />
             <Icon icon="skill-icons:figma-dark" width="30px" />
-            <Icon icon="skill-icons:nodejs-dark" width="30px" />
             <Icon icon="devicon:css3" width="30px" />
             <Icon icon="skill-icons:html" width="30px" />
         </div>
