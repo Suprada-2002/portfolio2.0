@@ -1,7 +1,7 @@
 <script>
-    import Icon from "@iconify/svelte";
-</script>
+  import Skills from "../Skills.svelte";
 
+</script>
 <div class="about">
     <div class="container">
          <div class="about-hero">
@@ -31,31 +31,9 @@
                 <p>Science</p> 
             </div>
          </div>
-        <div class="skill-section">
-            <h4>Skills</h4>
-          <div class="skill-icon">
-           <Icon icon="skill-icons:tailwindcss-dark" width="30px" />
-           <Icon icon="skill-icons:svelte" width="30px" />
-           <Icon icon="skill-icons:styledcomponents" width="30px" />
-           <Icon icon="skill-icons:react-dark" width="30px" />
-           <Icon icon="skill-icons:postman" width="30px" />
-           <Icon icon="skill-icons:python-dark" width="30px" />
-           <Icon icon="skill-icons:c" width="30px" />
-           <Icon icon="skill-icons:figma-dark" width="30px" />
-           <Icon icon="skill-icons:javascript" width="30px" />
-           <Icon icon="skill-icons:java-dark" width="30px" />
-           <Icon icon="skill-icons:html" width="30px" />
-           <Icon icon="skill-icons:mongodb" width="30px" />
-           <Icon icon="skill-icons:mysql-dark" width="30px" />
-           <Icon icon="skill-icons:neovim-dark" width="30px" />
-           <Icon icon="skill-icons:nodejs-dark" width="30px" />
-           <Icon icon="skill-icons:linux-dark" width="30px" />
-           <Icon icon="skill-icons:vscode-dark" width="30px"  />
-           <Icon icon="devicon:css3" width="30px" />
-        </div>
-    </div>
     </div>
 </div>
+<Skills />
 
 <style>
     span{
@@ -65,7 +43,7 @@
     .container{
         padding-top: 30px;
     }
-    .studies, .skill-section, .internship{
+    .studies, .internship{
         display: flex;
         padding-top: 50px;
         align-items: center;
