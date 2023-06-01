@@ -4,13 +4,15 @@
 
 <div class="hero">
     <div class="container"> 
-     <h6>Hello there,I am</h6>
-     <h3>Suprada Tripathy</h3>
-     <h6>Welcome to my Website</h6>
-     <div class="hh">
-        <Icon icon="skill-icons:styledcomponents" />
-           <Icon icon="skill-icons:react-dark" />
-           <Icon icon="skill-icons:postman" />
+        <div class="left">
+            <h6>Hello there,I am</h6>
+            <h3>Suprada Tripathy</h3>
+            <h6>Welcome to my Website</h6>
+        </div>
+      <div class="right">
+        <Icon icon="brandico:github" width="30px" />
+           <Icon icon="skill-icons:linkedin" width="30px" />
+           <Icon icon="logos:google-gmail" width="30px" />
      </div>
     </div>
 </div>
@@ -21,6 +23,8 @@
         color: var(--white);
     }
     .container{
+        display: flex;
+        flex-direction: row;
         padding: 3rem 0px;
         color: var(--dark-text);
     }
@@ -34,9 +38,14 @@
         font-size: 4vw;
     }
 
-    .hh{
-        float: right;
-        display: flex;
-        flex-direction: column;
+    .left{
+        flex: 90%;
+    }
+    .right{
+        flex: 10%;
+        gap:20px;
+       display: flex;
+       flex-direction: column;
+
     }
 </style>
