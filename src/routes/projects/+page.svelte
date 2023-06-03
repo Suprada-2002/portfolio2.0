@@ -1,66 +1,81 @@
 
-<div class="projects">
+<div class="projects-section">
     <div class="container">
-        <div class="one left">
-            <h2>Know Your Course</h2>
-            <h3>Tech Used:React.js, firebase, styled-components</h3>
-            <p>This is app where people can post about there exprencince on taking a course. Beginners can Used
-                this to know which course they sould take to learn the new experience.
-            </p>
-            <img src="../../static/favicon.png" alt="photo" />
+
+        <div class="row">
+            <div class="col66">
+                <h2>Know Your Course</h2>
+                <p><b>Tech Used :</b>React.js, firebase, styled-components</p>
+                <p>This is app where people can post about there exprencince on taking a course. Beginners can Used
+                    this to know which course they sould take to learn the new experience.
+                </p>
+                <button>live</button>
+            </div>
+            <div class="col33">
+                <img src="../../static/favicon.png" alt="photo" />
+            </div>
+      </div>
+
+
+        <div class="row">
+            <div class="col33">
+                <img src="../../static/favicon.png" alt="photo" />
+            </div>
+            <div class="col66">
+                <h2>Know Your Course</h2>
+                <p><b>Tech Used :</b>React.js, firebase, styled-components</p>
+                <p>This is app where people can post about there exprencince on taking a course. Beginners can Used
+                    this to know which course they sould take to learn the new experience.
+                </p>
+                <button>live</button>
+            </div>
         </div>
-        <div class="two right">
-            <h2>Visualizer of A* Algorithm</h2>
-            <h3>Tech Used:React.js, firebase, styled-components</h3>
-            <p>This is app where people can post about there exprencince on taking a course. Beginners can Used
-                this to know which course they sould take to learn the new experience.
-            </p>
-            <img src="../../static/favicon.png" alt="photo" />
-        </div>
-        <div class="three left">
-            <h2>Blog App</h2>
-            <h3>Tech Used:React.js, firebase, styled-components</h3>
-            <p>This is app where people can post about there exprencince on taking a course. Beginners can Used
-                this to know which course they sould take to learn the new experience.
-            </p>
-            <img src="../../static/favicon.png" alt="photo" />
-        </div>
-        <div class="four right">
-            <h2>Command Line Quiz app</h2>
-            <h3>Tech Used:React.js, firebase, styled-components</h3>
-            <p>This is app where people can post about there exprencince on taking a course. Beginners can Used
-                this to know which course they sould take to learn the new experience.
-            </p>
-            <img src="../../static/favicon.png" alt="photo" />
-        </div>
+
     </div>
 </div>
 
 <style>
-    .container {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+.row{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+}
 
-    .left > *{
-        float:left;
-    }
-    .right > *{
-        float:right;
-    }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
-    .one {
-        display: flex;
-        flex-direction: column;
-    }
+.col66 {
+    float: left;
+    width: 66%;
+    padding: 10px;
+}
 
+.col33 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
+   
     img {
-        max-width: 100px;
+        display: block;
+        padding-left: 20px;
+        height: auto;
+        max-width: 100%;
     }
 
-    @media screen and (max-width: 800px){
-        h2,h3{
-            float:none;
+    @media screen and (max-width: 1000px){
+        .col66, .col33{
+            width: 100%;
+            text-align: center;
+        }
+        img {
+            margin: auto;
+        }
+        .row {
+            display: block;
         }
     }
 </style>
