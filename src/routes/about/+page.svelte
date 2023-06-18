@@ -39,6 +39,7 @@
     span{
         font-size: 10px;
         padding-left: 30px;
+        color: var(--dark_blue);
     }
     .container{
         padding-top: 30px;
@@ -60,6 +61,7 @@
         font-weight: 300;
     }
     h4{
+        color: var(--light_blue);
         writing-mode: vertical-lr;
     }
     

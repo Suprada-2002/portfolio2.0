@@ -12,14 +12,43 @@
                 <button>live</button>
             </div>
             <div class="col33">
-                <img src="../../static/favicon.png" alt="photo" />
+                <img src="../../static/favicon.png" alt="uu" />
             </div>
       </div>
 
 
         <div class="row">
             <div class="col33">
-                <img src="../../static/favicon.png" alt="photo" />
+                <img src="../../static/favicon.png" alt="mm" />
+            </div>
+            <div class="col66">
+                <h2>Know Your Course</h2>
+                <p><b>Tech Used :</b>React.js, firebase, styled-components</p>
+                <p>This is app where people can post about there exprencince on taking a course. Beginners can Used
+                    this to know which course they sould take to learn the new experience.
+                </p>
+                <button>live</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col66">
+                <h2>Know Your Course</h2>
+                <p><b>Tech Used :</b>React.js, firebase, styled-components</p>
+                <p>This is app where people can post about there exprencince on taking a course. Beginners can Used
+                    this to know which course they sould take to learn the new experience.
+                </p>
+                <button>live</button>
+            </div>
+            <div class="col33">
+                <img src="../../static/favicon.png" alt="uu" />
+            </div>
+      </div>
+
+
+        <div class="row">
+            <div class="col33">
+                <img src="../../static/favicon.png" alt="pp" />
             </div>
             <div class="col66">
                 <h2>Know Your Course</h2>
@@ -39,6 +68,11 @@
     padding: 20px 0px;
     display: flex;
     align-items: center;
+}
+
+p{
+    color: var(--white);
+    font-weight: 300;
 }
 
 .row:after {

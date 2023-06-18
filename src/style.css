@@ -14,10 +14,10 @@ body{
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 	background-color: var(--dark_black);
-	color: var(--light_blue);
+	color: var(--white);
 }
 
 .container {
-	max-width: 1000px;
+	max-width: 80vw;
 	margin: 0 auto;
 }

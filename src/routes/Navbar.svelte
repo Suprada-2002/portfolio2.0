@@ -24,53 +24,40 @@
   $: routeId = $page.route.id;
 </script>
 
-<nav>
-    <div class="container">
-        <Icon icon="svg-spinners:blocks-shuffle-3" width="40"  />
+<nav class="container">
         <ul>
             {#each navs as {title, href}}
            <li><a {href} class:active={
             routeId === href
-           }>{title}</a></li>
+           }>{title} </a> | </li>
            {/each}
         </ul>
-    </div>
     </nav>
 
     
        <style> 
     nav{
-        color: var(--pink);
-        padding: 0.5em;
+       padding: 20px 0px;
+        
     }
-    
-      .container{
-        display:flex;
+    ul{
+        display: flex;
+        justify-content: center;
         align-items: center;
-     }
-       ul{
-           display:flex;
-           margin: 0px;
-           margin-left: auto;
-           list-style: none;
-       }
-       
+        list-style: none;
+    }
+   
        li{
            margin-right: 10px;
        }
-    h3{
-        margin: 0px;
-        font-size: 1.3rem;
-    }
-    
-    a{
+       a{
         text-decoration: none;
-        color: rgb(112, 101, 101);
+        color: var(--white)
+    }
+    .active{
+        color:var(--light_blue);
     }
 
-    .active{
-        color:var(--pink);
-    }
        </style>
     
     
