@@ -4,7 +4,7 @@
 </script>
 
 <Navbar />
-    <slot />
+<slot />
 <footer class="container">
   <i>made using love and svelte.js</i>
 </footer>

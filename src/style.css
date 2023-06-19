@@ -6,7 +6,6 @@
   --white: #f8f8f8;
   --light_blue: #6a98f0;
   --dark_blue: #5e76ee;
-
   --black: #303137;
 }
 
@@ -20,4 +19,5 @@ body{
 .container {
 	max-width: 80vw;
 	margin: 0 auto;
+	
 }
