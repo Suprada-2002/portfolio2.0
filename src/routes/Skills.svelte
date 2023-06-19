@@ -91,9 +91,9 @@ li{
     display: flex;
     gap:10px;
     padding: 3px 5px;
-    background-color: var(--light_blue);
-    color: var(--dark_black);
-    font-weight: 800;
+    background-color: var(--light_black);
+    color: var(--light_blue);
+    font-weight: 500;
     border-radius: 4px;
 }
 </style>
