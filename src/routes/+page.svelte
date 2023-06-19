@@ -1,33 +1,41 @@
 <script>
   import Icon from '@iconify/svelte';
+  import HeroSection from './HeroSection.svelte';
+
+  let project = [
+    {
+      title: "Blog App",
+      desc: "place where i write my thoughts",
+      href: "/"
+    },
+    {
+      title: "Sign Book",
+      desc: "If u are here please got my sign book and sign it",
+      href: "/"
+    }
+  ]
 </script>
 
+<HeroSection />
 <div class="container">
-    <div class="blog">
-      <div class="heroIcon">
-        <Icon icon="openmoji:writing-hand-light-skin-tone" width="40" />
-      </div> 
-      <div class="content">
-        <a href="/">A place where i write about my thoughts</a>
-      </div>
-    </div>
+  <div class="project">
+    <ul>
+    {#each project as {desc,href}}
+    <li><a {href}>{desc}</a></li>
+    {/each}
+  </ul>
+  </div>
 </div>
 
 <style>
-  .content{
-    font-weight: 300;
+  ul{
     display: grid;
+    grid-template-columns: 1fr 1fr;
     place-items: center;
+    list-style: none;
   }
-  .blog{
-    color:var(--white);
-    width: 80%;
-    border: 1px solid var(--white);
-    display: flex;
-  }
-  .heroIcon {
-    writing-mode: vertical-lr;
-    padding: 5px 5px;
+  li{
+    border: 1px solid white;
   }
    a{
     text-decoration: none;

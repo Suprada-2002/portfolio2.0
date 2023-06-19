@@ -1,5 +1,59 @@
 <script>
     import Icon from "@iconify/svelte";
+
+    let tools=[
+        {
+            title:"vs code",
+            icon:""
+        },{
+            title:"Vim",
+            icon:""
+        },{
+            title:"Nano",
+            icon:""
+        }
+    ]
+
+    let framework = [
+        {
+            title:"React.js",
+            icon:"skill-icons:react-dark"
+        },{
+            title:"Next.js",
+            icon:""
+        },{
+            title:"Svelte.js",
+            icon:"skill-icons:svelte"
+        },{
+            title:"Vue.js",
+            icon:"skill-icons:vuejs-dark"
+        },{
+            title:"style-components",
+            icon:"skill-icons:styledcomponents"
+        }
+    ]
+
+    let language = [
+        {
+            title:"Javascript",
+            icon:"skill-icons:javascript"
+        },{
+            title:"Python",
+            icon:"skill-icons:python-dark"
+        },{
+            title:"C",
+            icon:"skill-icons:c"
+        },{
+            title:"C++",
+            icon:""
+        },{
+            title:"Node.js",
+            icon:"skill-icons:nodejs-dark",
+        },{
+            title:"Java",
+            icon:"skill-icons:java-dark"
+        }
+    ]
 </script>
 
 <div class="container">
