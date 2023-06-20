@@ -2,17 +2,17 @@
     let photos = [
         {
             name:"Jujitsu Kaisen",
-            path:"../../../static/jjk.jpeg"
+            path:"../../../jjk.jpeg"
         },{
             name:"Naruto",
-            path:"../../../static/naruto.jpg"
+            path:"../../../naruto.jpg"
         },
         {
             name:"Bleach",
-            path:"../../../static/bleach.jpg"
+            path:"../../../bleach.jpg"
         },{
             name: "Bungo Stray Dogs",
-            path:"../../../static/bungoStrayDogs.jpeg"
+            path:"../../../bungoStrayDogs.jpeg"
         }
     ]
 
