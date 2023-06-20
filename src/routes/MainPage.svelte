@@ -20,10 +20,10 @@
         href:"https://github.com/Suprada-2002"
       },{
         title: "Instagram",
-        href:"/"
+        href:"https://www.instagram.com/suprada__tripathy/"
       },{
         title:"LinkedIn",
-        href:"/"
+        href:"https://www.linkedin.com/in/suprada-tripathy-2981a1201/"
       }
     ]
   </script>
