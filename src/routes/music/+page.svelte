@@ -2,7 +2,7 @@
     let songs = [
         "AC/DC - Back in Black","RedBone - Come and Get Your Love",
         "Bruno Mars - Finesse", "Taylor Swift - Wildest Dreams",
-        "Fifty Fifty - Cupid"
+        "Fifty Fifty - Cupid", "Hate Me - Nico Collins"
     ]
 
 </script>
